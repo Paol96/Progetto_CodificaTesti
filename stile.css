@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body {
+	background-color: black;
+	height: 100%;
+}
+
+header{
+	
+	color: green;
+	text-align: center;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-bottom-color: black;
+	border-top-color: black;
+	font-family: Times New Roman;
+	color: green;
+	border-color: green;
+
+}
+
+h1 {
+	font-family: 'Teko', sans-serif;
+	text-align: center;
+	color: green;
+
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 260%;
+	color: green;
+}
+
+#R147{
+	margin-top: 1%;
+}
+
+#R208{
+	margin-top: 1%;
+}
+
+.fronte {
+	border: solid;
+	border-color: green;
+	width: 35%;
+	margin-left: 1.5%;
+
+}
+
+.retro {
+	border: solid;
+	border-color: green;
+	width: 35%;
+	margin-left: 1.5%;
+
+}
+
+
+
+#Informazioni147 {
+
+	
+    margin-top: -47.5%;
+    min-width: 38%;
+    min-height: 100%;
+    margin-left: 60%;
+
+}
+
+#Informazioni208 {
+
+	
+    margin-top: -79.5%;
+    min-width: 38%;
+    min-height: 100%;
+    margin-left: 60%;
+
+}
+
+.informazioni{
+	margin-top: 5%;
+	text-align: center;
+	background-color: green;
+	border: solid;
+	border-color: black;
+	font-family: Times New Roman;
+	
+}
+
+#about{
+	margin-top: 5%;		
+	border-color: green;
+	font-family: Times New Roman;
+	background-color: black;
+	color: green;
+	min-height: 50%;
+	min-width: 20%;
+	margin-left: 45%;
+}
+
+
+.informazioniTxt{
+	margin-top: 9%;
+}
+

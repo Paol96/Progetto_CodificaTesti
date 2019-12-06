@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stile1.xsl"?>
+<?xml-stylesheet type="text/css" href="stile.css"?>
+<!DOCTYPE teiCorpus SYSTEM "myTEI.dtd">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Cartoline della Prima Guerra Mondiale - Edizione Digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascrizione a cura di:</resp>
+                    <name xml:id="LP">Ludovico Paolucci</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune" xml:id="SP">Comune di La Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea in Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date when="2019"> 2019</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codificato da: </resp>
+                    <name ref="#LP">Ludovico Paolucci</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>                   
+                    <resp>Compilatore: </resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico: </resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile: </resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>   
+            
+            
+            <sourceDesc>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement> La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno></idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+
+    <!-- prima cartolina 147-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cart147">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gianeur - Edizione Digitale</title>
+
+                <respStmt>
+                    <resp>Trascrizione a cura di:</resp>
+                    <name ref="#LP">Ludovico Paolucci</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune" ref="#SP">Comune di La Spezia</name>
+                </respStmt>
+
+            </titleStmt>
+               <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale e
+                        Triennale di Informatica Umanistica, Università di Pisa <date when="2019-11"
+                            >Novembre 2019</date>
+                    </edition>
+                    <respStmt>
+                        <resp>Codificato da::</resp>
+                        <name ref="#LP">Ludovico Paolucci</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilatore:</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico:</resp>
+                        <name ref="#GP">Giacomo Paolicchi</name>
+                        <name ref="#ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile:</resp>
+                        <name ref="#MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2019">2019</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+
+                 <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Nel retro della cartolina è presente il timbro dell'ufficio postale, la cui metà inferiore è illegibile.</note>
+            </notesStmt>
+
+            <sourceDesc xml:id="cartolina147">
+                    <bibl>
+                        <title xml:id="titolo147">Gianeur</title>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <idno>7694_147_001/002</idno>
+                        </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>                   
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp type="francobollo">francobollo - poste italiane - 5 centesimi</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                	<person>
+                        <persName ref="#CC">
+                            <forename>Carola</forename>
+                            <surname>Capanna </surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>        
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    
+                </listPlace>
+                
+               
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>
+                        <note>Non è chiaro</note>
+                    </persName>                     
+                    <placeName>Mantova</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1915-03-26">1915/03/26</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#CC" >
+                         <forename>Carola</forename>
+                            <surname>Capanna </surname>
+                        </persName>
+                    
+                </correspAction>
+               
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Gianeur</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="surface_147F" start="#surface-147F">
+            <graphic url='7694-147F.jpg' width='1643px' height='1070px' />
+        </surface>
+        <surface xml:id="surface_147R" start="#surface-147R">
+            <graphic url='7694-147R.jpg' width='1646px' height='1062px' />
+            <zone ulx="40" uly="72" lrx="634" lry="94" xml:id="intestazione_1" start="#intestazione-1" />
+            <zone ulx="46" uly="108" lrx="742" lry="143" xml:id="intestazione_2" start="#intestazione-2" />
+            <zone ulx="324" uly="257" lrx="629" lry="440" xml:id="firma_1" start="#firma-1" />
+            <zone ulx="985" uly="112" lrx="1089" lry="200" xml:id="numero_identificativo" start="#numero-identificativo" />
+            <zone ulx="1156" uly="43" lrx="1478" lry="328" xml:id="meta_timbro" start="#meta-timbro" />
+            <zone ulx="1315" uly="23" lrx="1566" lry="318" xml:id="francobollo_posteitaliane" start="#francobollo-posteitaliane" />
+            <zone ulx="796" uly="293" lrx="1632" lry="460" xml:id="riga_1" start="#riga-1" />
+            <zone ulx="1040" uly="456" lrx="1201" lry="525" xml:id="riga_2" start="#riga-2" />
+            <zone ulx="821" uly="480" lrx="1630" lry="578" xml:id="riga_3" start="#riga-3" />
+            <zone ulx="1051" uly="613" lrx="1585" lry="878" xml:id="line_place" start="#line-place" />
+            <zone ulx="751" uly="919" lrx="831" lry="1002" xml:id="disegno_1" start="#disegno-1"  />
+            <zone ulx="768" uly="1007" lrx="822" lry="1033" xml:id="intestazione_3" start="#intestazione-3" />
+            <zone ulx="797" uly="51" lrx="707" lry="910" xml:id="linea_1" start="#linea-1" />
+        </surface>
+    </facsimile>
+
+       
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="cartolina_147">
+        <!-- TRASCRIZIONE -->
+        <body xml:lang="ita">
+            <div type="fronte" xml:id="fronte_147">
+                <figure>
+                    <head>Gianeur</head>
+                    <docAuthor>K. Rasek</docAuthor>
+                    <figDesc>La cartolina raffigura un contadino intento a lavorare in un campo.</figDesc>
+                    <graphic url="7694-147F.jpg" />             
+                    
+                </figure>
+            </div>
+            <div type="retro">
+                <div type="message">
+                    <!-- ... -->
+                    
+                   <signed xml:id="firma-1" facs="#firma_1"> El </signed>
+                    <note>Probabilmente è la firma del mittente della cartolina</note>
+                    
+                </div>
+                <div type="destination">
+                    <p>
+                        <!-- stamps -->
+                        <stamp type="postmark" xml:id="meta-timbro" facs="#meta_timbro"> 
+                            <mentioned> <unclear reason="faded">MANTOVA</unclear></mentioned>
+                            <date when="1915-03-26">26 marzo <unclear reason="faded">1915</unclear></date>
+                            <note>Manca la metà inferiore del timbro</note>
+                        </stamp>
+                        <stamp type="postage" xml:id="francobollo-posteitaliane" facs="#francobollo_posteitaliane">francobollo - poste italiane - 5 centesimi</stamp>
+                    </p>
+                    <ab>
+                        <address xml:id="address1">
+                            <lb xml:id="riga-1" facs="riga_1"/>
+                            <addrLine>Signorina <persName> Carola Capanna </persName> </addrLine>
+                            <lb xml:id="riga-2" facs="riga_2"/>
+                            <addrLine> per o. </addrLine>
+                            <lb xml:id="riga-3" facs="riga_3"/>
+                            <addrLine>Marc'Antonio Colonna / 0</addrLine>
+                            <lb xml:id="line-place" facs="line_place" />
+                            <addrLine rend="align(center)"> <placeName ref="#RV">Ravenna</placeName></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </ab>
+                </div>
+
+                <div type="stampe_cartolina">
+                	<p>
+                		<stamp type="typography" xml:id="intestazione-1" facs="#intestazione_1"> K. Rašek: Paběrky. - Gianeur.</stamp>
+                    </p>
+                    <p>
+                		<stamp type="typography" xml:id="intestazione-2" facs="#intestazione_2"> K. Paiiiekl: Oktatkil. - Ueberbleibsel. </stamp>
+                    </p>
+                    <p>
+                		<stamp type="typography" xml:id="numero-identificativo" facs="#numero_identificativo"> 147 </stamp>
+                		<note>Codice identificativo della cartolina, aggiunto in una fase successiva o di catalogazione</note>
+                    </p>
+                    <p>
+                  		<stamp type="typography" xml:id="disegno-1" facs="#disegno_1">MINERVA</stamp>
+                		<note> stampa che probabilmente raffigura la dea minerva</note>
+                    </p>
+                    <p>
+                		<stamp type="typography" xml:id="intestazione-3" facs="#intestazione_3"> 1205 </stamp>
+                    </p>
+                    <p>
+                		<stamp type="typography" xml:id="linea-1" facs="#linea_1"> </stamp>
+                		<note>linea che divide la parte dedicata al messaggio dalla parte dedicata all'indirizzo del destinatario</note>
+                    </p>
+                	
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+<!-- seconda cartolina 208 !-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cart208">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                	<title type="main">Giulietta e Romeo - edizione digitale</title>
+
+                	<respStmt>
+                		<resp>Trascrizione a cura di:</resp>
+                		<name ref="LP">Ludovico Paolucci</name>
+                	</respStmt>
+
+                	 <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="#SP">Comune di La Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale e
+                        Triennale di Informatica Umanistica, Università di Pisa <date when="2019-11"> Novembre 2019</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by</resp>
+                        <name ref="#LP">Ludovico Paolucci</name>                        
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilatore:</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico:</resp>
+                        <name ref="#GP">Giacomo Paolicchi</name>
+                        <name ref="#ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <licence>Available under licence only</licence>
+                    </availability>
+                    <date when="2019">2019</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+
+                <sourceDesc>
+                	<bibl>
+                		<title xml:id="titolo208">Giulietta e Romeo</title>
+                	</bibl>
+                	<msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_208_001/002</idno>
+                    </msIdentifier>
+
+                     <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp type="francobollo">francobollo - poste italiane - 5 centesimi</stamp>
+                                </support>
+
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+
+                    <listPerson>
+                        <person xml:id="G">
+                            <persName>
+                                <forename>Giovanni</forename>
+                                </persName>
+                            <sex>M</sex>
+                        </person>
+                        <person xml:id="OT">
+                            <persName>
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                    </listPerson>
+
+                    <listPlace>
+                    <place>
+                        <placeName ref="#RV">Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country> 
+                    </place>
+                </listPlace>
+
+
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                	<persName ref="G">
+                        <forename>Giovanni</forename>
+                    </persName>
+                		<placeName>Modena</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1916-12-10/11">1917/09/27</date>
+                    <date type="writing" when="1916-12-19">1917/09/27</date>
+                </correspAction>
+                 <correspAction type="received">
+                    <persName ref="#OT">
+                         <forename>Oliva</forename>
+                         <surname>Turtura </surname>
+                    </persName>
+                    <placeName>
+                        <address>
+                            <addrLine>Via Girolamo Ragli 58</addrLine>
+                            <addrLine>Ravenna</addrLine>
+                        </address>
+                    </placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Giulietta e Romeo</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+    	<surface xml:id="surface_208F" start="surface-280F">
+    		<graphic url='7694-208F.jpg' width='504px' height='800px' />
+    	</surface>
+    	<surface xml:id="surface_208R" start="surface-208R">
+    		<graphic url='7694-208R.jpg' width='803px' height='506px' />
+    		<zone ulx="210" uly="13" lrx="637" lry="40" xml:id="intestazione_1due" start="#intestazione-1due" />
+    		<zone ulx="18" uly="147" lrx="36" lry="357" xml:id="intestazione_2due" start="#intestazione-2due" />
+    		<zone ulx="39" uly="444" lrx="367" lry="467" xml:id="intestazione_3due" start="#intestazione-3due" />
+    		<zone ulx="499" uly="66" lrx="563" lry="93" xml:id="numero_identificativodue" start="#numero-identificativodue" />
+    		<zone ulx="667" uly="19" lrx="779" lry="172" xml:id="francobollo_posteitalianedue" start="#francobollo-posteitalianedue" />
+    		<zone ulx="624" uly="1" lrx="798" lry="174" xml:id="timbro_1" start="#timbro-1" />
+    		<zone ulx="417" uly="83" lrx="416" lry="409" xml:id="linea_1due" start="#linea-1due" />
+    		<zone ulx="406" uly="429" lrx="427" lry="474" xml:id="disegno_1due" start="#disegno-1due" />
+    		<zone ulx="419" uly="163" lrx="730" lry="254" xml:id="riga_1due" start="#riga-1due" />
+    		<zone ulx="447" uly="259" lrx="778" lry="315" xml:id="riga_2due" start="#riga-2due" />
+    		<zone ulx="419" uly="316" lrx="781" lry="380" xml:id="riga_3due" start="#riga-3due" />
+    		<zone ulx="432" uly="381" lrx="755" lry="462" xml:id="line_placedue" start="#line-placedue" />
+    		<zone ulx="330" uly="20" lrx="419" lry="458" xml:id="line_1" start="#line-1" />
+    		<zone ulx="236" uly="63" lrx="330" lry="360" xml:id="line_2" start="#line-2" />
+    		<zone ulx="147" uly="43" lrx="279" lry="462" xml:id="firma_1due" start="#firma-1due" />
+    	</surface>
+    </facsimile>
+
+    <text type="cartolina" xml:id="cartolina_208">
+    	<body xml:lang="ita">
+    		<div type="fronte">
+    			<figure>
+                    <head> Giulietta e Romeo</head>
+                    <figDesc>Giulietta e Romeo sul famoso balcone</figDesc>
+    				<graphic url="7694-208F.jpg"/>  			
+    			</figure>
+
+    			<div type="retro">
+    				<div type="message">
+    					<opener>
+                            <lb xml:id="line-1" facs="#line_1"/>
+    						<dateline>
+    							<placeName>Modena</placeName>
+                                <distinct type="forma_desueta">li</distinct>
+                                <date when="1917-09-27">27/09/17</date>
+    						</dateline>
+    					</opener>
+    					<p>
+    						<lb xml:id="line-2" facs="#line_2"/>
+    						sempre il tuo
+    					</p>
+    					<signed xml:id="firma-1due" facs="#firma_1due">
+    						Giovanni
+    					</signed>
+    				</div>
+
+    				<div type="destination">
+    					<p>
+    						<!-- stamps -->
+                            <stamp type="postage" xml:id="francobollo-posteitalianedue" facs="#francobollo_posteitalianedue">francobollo - poste italiane - 5 centesimi</stamp>
+                            <stamp type="postmark" xml:id="timbro-1" facs="#timbro_1">
+                            	<mentioned><unclear reason="faded">Modena ferrovia</unclear></mentioned>
+                                <date when="1917-09-27"><unclear reason="faded">27-09-1917</unclear></date>
+                            </stamp>
+                        </p>
+                        <ab>
+                        <address xml:id="address2">
+                            <lb xml:id="riga-1due" facs="#riga_1due"/>
+                            <addrLine>
+                            	<choice>
+                                    <abbr>Gent.</abbr>
+                                    <expan>Gentile</expan>
+                                </choice>
+                                <choice>
+                                	<abbr>Sig.na</abbr>
+                                	<expan>Signorina</expan>
+                                </choice>
+                            </addrLine>
+                            <lb xml:id="riga-2due" facs="#riga_2due"/>
+                            <addrLine xml:id="uno">Oliva Turtura</addrLine>
+                            <lb xml:id="riga-3due" facs="#riga_3due"/>
+                            <addrLine xml:id="due">Via Girolamo Ragli 58</addrLine>
+                            <lb xml:id="line-placedue" facs="#line_placedue"/>
+                            <addrLine xml:id="tre"><placeName ref="#RV">Ravenna</placeName> </addrLine>
+                        </address>
+                    </ab>
+
+                    <div type="stampe_cartolina">
+                    <p>
+                        <stamp type="typography" xml:id="intestazione-1due" facs="#intestazione_1due">Cartolina Postale</stamp>
+                        
+                    </p>
+                    <p>
+                        <stamp type="typography" xml:id="numero-identificativodue" facs="#numero_identificativodue">208</stamp>
+                        <note>Codice identificativo della cartolina, aggiunto in una fase successiva o di catalogazione</note>
+                    </p>
+                    <p>
+                        <stamp type="typography" xml:id="intestazione-2due" facs="#intestazione_2due">(Edizione Artistica)</stamp>
+                    </p>
+                    <p>
+                    	<stamp type="typography" xml:id="intestazione-3due" facs="#intestazione_3due">(Arte moderna) Giulietta e Romeo</stamp>
+                    </p>
+                    <p>
+                    	<stamp type="typography" xml:id="disegno-1due" facs="#disegno_1due"></stamp>
+                    	<note>piccolo disegno tipografico</note>
+                    </p>
+                    <p>
+                    	<stamp type="typography" xml:id="linea-1due" facs="#linea_1due"></stamp>
+                    	<note>linea che divide la parte della cartolina dedicata al messaggio dalla parte dedicata alle informazioni del destinatario</note>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</text>
+</TEI>
+</teiCorpus>
+            
+
+
+
+
+    
+
+
+
+
+
+                                
+
